@@ -2,6 +2,6 @@ name: LiXianlin's Blog
 paginate: 5
 markdown: kramdown
 kramdown:
-  use_coderay: false
+  use_coderay: true
   
 
