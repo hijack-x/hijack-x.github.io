@@ -2,6 +2,5 @@ name: LiXianlin's Blog
 paginate: 5
 markdown: kramdown
 kramdown:
-  use_coderay: true
   input: GFM
 
