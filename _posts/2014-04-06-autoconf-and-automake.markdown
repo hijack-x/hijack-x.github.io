@@ -6,7 +6,8 @@ categories: article
 ---
 
 1、创建hello.c文件，内容如下：
-```#include <stdio.h>
+```c
+#include <stdio.h>
 
 int main(int argc, char **argv)
 {
