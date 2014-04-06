@@ -1,4 +1,4 @@
 name: LiXianlin's Blog
 paginate: 5
-markdown: redcarpet
-extensions: [fenced_code_blocks]
+redcarpet:
+  extensions: [fenced_code_blocks]
