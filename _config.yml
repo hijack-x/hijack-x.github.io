@@ -1,4 +1,3 @@
 name: LiXianlin's Blog
 paginate: 5
-kramdown:
-  input: GFM
+
