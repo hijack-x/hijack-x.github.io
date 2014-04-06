@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 使用autoconf和automake生成Makefile
+date: 2014-06-04 22:30:00
 categories: article
 ---
 
