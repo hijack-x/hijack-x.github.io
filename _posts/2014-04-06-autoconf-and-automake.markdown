@@ -6,7 +6,7 @@ categories: article
 ---
 
 1、创建hello.c文件，内容如下：
-```
+```c
 #include <stdio.h>
 
 int main(int argc, char **argv)
@@ -17,11 +17,14 @@ int main(int argc, char **argv)
 ```
 
 2、创建Makefile.am文件，内容如下：
+```
 AUTOMAKE_OPTIONS=foreign 
 bin_PROGRAMS=hello 
 hello_SOURCES=hello.c
+```
 
 3、执行autoscan，生成configure.scan，重命名为configure.in并修改：
+```
 #                                               -*- Autoconf -*-
 # Process this file with autoconf to produce a configure script.
 
@@ -45,6 +48,7 @@ AC_PROG_CC
 
 AC_CONFIG_FILES([Makefile])
 AC_OUTPUT
+```
 
 4、执行aclocal，生成aclocal.m4文件
 
