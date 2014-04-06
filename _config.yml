@@ -1,0 +1,4 @@
+name: LiXianlin's Blog
+markdown: redcarpet
+pygments: true
+paginate: 5
