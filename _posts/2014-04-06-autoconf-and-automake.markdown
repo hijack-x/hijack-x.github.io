@@ -6,6 +6,7 @@ categories: article
 ---
 
 1、创建hello.c文件，内容如下：
+```
 #include <stdio.h>
 
 int main(int argc, char **argv)
@@ -13,6 +14,7 @@ int main(int argc, char **argv)
     printf("Hello!\n");
     return 0;
 }
+```
 
 2、创建Makefile.am文件，内容如下：
 AUTOMAKE_OPTIONS=foreign 
