@@ -1,5 +1,4 @@
 name: LiXianlin's Blog
-markdown: kramdown
 paginate: 5
 kramdown:
   input: GFM
