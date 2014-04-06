@@ -1,4 +1,5 @@
 name: LiXianlin's Blog
+markdown: kramdown
 pygments: true
 paginate: 5
 kramdown:
