@@ -1,5 +1,2 @@
 name: LiXianlin's Blog
-pygments: true
-paginate: 5
-kramdown:
-  input: GFM
+
